@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "forma-landing-kit",
+  "version": "0.1.0",
+  "description": "An original responsive Next.js landing-page template and AI rebranding workflow.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Forma Landing Kit",
+        "shortDescription": "Build a branded landing page",
+        "longDescription": "Create or adapt a responsive Next.js landing page using an original fictional product example. Includes an interactive note workspace, original geometric illustrations, feature sections, use cases, illustrative pricing, FAQ, a cross-platform scaffolder, and a rebranding skill.",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Create a landing page for my product using Forma Landing Kit. Adapt the brand, copy, product demo, and assets."
+        ],
+        "logo": "assets/plugin-icon.png",
+        "composerIcon": "assets/plugin-icon.png"
+      },
+      "publication": {
+        "release_notes": "Initial original Forma example with responsive sections, interactive notes, geometric illustrations, sample pricing, accessible controls, and cross-platform scaffolding."
+      }
+    }
+  }
+}
